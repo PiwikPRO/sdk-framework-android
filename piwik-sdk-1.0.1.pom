@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>pro.piwik.sdk</groupId>
   <artifactId>piwik-sdk</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>aar</packaging>
   <name>Piwik PRO SDK for Android</name>
   <description>SDK for Android to measure your apps with Piwik PRO</description>
@@ -18,9 +18,9 @@
   </licenses>
   <developers>
     <developer>
-      <id>kshumelchyk</id>
-      <name>Kseniia Shumelchyk</name>
-      <email>kshum@softserveinc.com</email>
+      <id>mbura</id>
+      <name>Maksym Bura</name>
+      <email>mbura@softserveinc.com</email>
     </developer>
   </developers>
   <scm>
@@ -43,7 +43,7 @@
     </dependency>
     <dependency>
       <groupId>com.google.android.gms</groupId>
-      <artifactId>play-services</artifactId>
+      <artifactId>play-services-basement</artifactId>
       <version>11.0.4</version>
       <scope>compile</scope>
     </dependency>
