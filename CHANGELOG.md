@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.2 - 02.03.2022
+
+### Changed
+  
+- Added an empty initializer to the exception event
+
+### Added
+
+- New application download event
+- New download event
+
 ## 1.1.1 - 10.02.2022
 
 ### Changed
