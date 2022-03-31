@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.3 - 31.03.2022
+
+### Changed
+  
+- Unified with Piwik PRO iOS SDK the methods for creating custom variables, both visit and screen scope
+- Unified with Piwik PRO iOS SDK the method for creating custom dimensions
+
+
 ## 1.1.2 - 02.03.2022
 
 ### Changed
@@ -37,4 +45,4 @@ All notable changes to this project will be documented in this file.
 - Fixed an issue of missing e-mail in the request after using the method `setUserMail()` 
 - Fixed an issue with incorrect URL keyword parsing in the Tracking campaigns method
 - Anonymisation has been improved and optimised. Now, when anonymisation is enabled, device ID, e-mail and user ID are not sent to the adience manager
-- Minor fixes and improvements
+- Minor fixes and improvements- Minor fixes and improvements- Minor fixes and improvements
