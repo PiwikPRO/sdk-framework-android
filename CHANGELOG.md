@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.4 - 10.05.2022
+
+### Changed
+- The `socialInteraction`, `exception` and `sendApplicationDownload` events are no longer tracked as screen views but as custom events.
+- The `target` argument in the `socialInteraction` method and `isFatal` in the `exception` method are no longer used and will soon be removed from the signatures of these methods.
+
 ## 1.1.3 - 31.03.2022
 
 ### Changed
