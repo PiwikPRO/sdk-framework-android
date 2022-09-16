@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.6 - 16.09.2022
+
+### Changed
+- Upgrade of libraries versions. Internal fixes and improvements.
+- Removed warnings about unsupported parameters in social interaction and exception events. Removed deprecated parameters.
+
 ## 1.1.5 - 01.05.2022
 
 ### Changed
