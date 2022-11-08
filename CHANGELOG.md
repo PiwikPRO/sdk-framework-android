@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.7 - 08.11.2022
+
+### Changed
+- Changed data type for `idGoal` parameter in `goal` method from `Int` to `String`
+- The `outling` method will accept any type of scheme in the URL parameter
+
 ## 1.1.6 - 16.09.2022
 
 ### Changed
