@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.8 - 08.12.2022
+
+### Changed
+- Removed deprecated `download` method responsible for sending the event of application installation. 
+
+### Fixed
+- Fixed the issue with the incorrect order of values for properties in the `EcommerceItems` object in the Tracking ecommerce method when one of the properties(e.g. category) does not have an assigned value.
+
 ## 1.1.7 - 08.11.2022
 
 ### Changed
