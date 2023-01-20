@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.9 - 20.01.2023
+
+### Fixed
+- Fixed a bug that appears under certain circumstances related to an exception java.lang.ClassNotFoundException.
+
 ## 1.1.8 - 08.12.2022
 
 ### Changed
