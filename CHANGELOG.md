@@ -1,6 +1,18 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.10 - 04.02.2023
+
+### Fixed
+- Fixed the issue with wrong order of events in the tracker.
+
+### Added
+- Introduced support for UTM tags and custom tags in campaign tracking and deep links.
+
+### Changed
+- The way in which the `deviceID` is created has been changed. From now on, the `deviceID` is `null` by default. The `deviceID` can be set using the `setDeviceId` method.
+The `setTrackDeviceId` method has been removed.
+
 ## 1.1.9 - 20.01.2023
 
 ### Fixed

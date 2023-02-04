@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>pro.piwik.sdk</groupId>
   <artifactId>piwik-sdk</artifactId>
-  <version>1.1.9</version>
+  <version>1.1.10</version>
   <packaging>aar</packaging>
   <name>Piwik PRO SDK for Android</name>
   <description>SDK for Android to measure your apps with Piwik PRO</description>
@@ -27,12 +27,6 @@
       <groupId>com.jakewharton.timber</groupId>
       <artifactId>timber</artifactId>
       <version>5.0.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.google.android.gms</groupId>
-      <artifactId>play-services-ads-identifier</artifactId>
-      <version>18.0.1</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
