@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.11 - 24.03.2023
+
+### Added
+- `preserveSessionParameters` parameter was added to the `startNewSession` method. By default, calling this method deletes all parameters(`custom variables`, `custom dimensions`, `campaigns`) of the current session. If you want the parameters of the current session to be preserved, pass the flag `true` as a parameter to the method.
+
+### Changed
+- The mechanism for initiating a new session every 30 minutes has been removed. From now on, a new session can only be triggered using the `startNewSession` method.
+
 ## 1.1.10 - 04.02.2023
 
 ### Fixed
