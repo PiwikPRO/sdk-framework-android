@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.1.12 - 24.04.2023
+
+### Added
+- 's', 'm' 'h' parameters in requests from Android SDK.
+
+### Changed
+- Changed the parameter type in the `campaign` method from `URL` to `String`.
+
 ## 1.1.11 - 24.03.2023
 
 ### Added
