@@ -1,6 +1,17 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.2.0 - 13.09.2023
+
+### Added
+- New e-commerce events: `ecommerceProductDetailView`, `ecommerceAddToCart`, `ecommerceRemoveFromCart`, `ecommerceCartUpdate`, `ecommerceOrder`.
+
+### Fixed
+- Fixed the issue with emptying the queue of pending events when the opt out flag is switched from true to true.
+
+### Changed
+- Changed the number of allowed characters for custom dimension value from 256 to 1024.
+
 ## 1.1.13 - 03.07.2023
 
 ### Fixed
