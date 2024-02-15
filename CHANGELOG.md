@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.2.1 - 15.02.2024
+
+### Added
+- New events" `applicationInstall` and `applicationUpdate`.
+
+### Fixed
+- Fixed the issue with the change of dispatchIntervalTime not affecting already queued events.
+- Fixed the issue with events not being saved in device memory after being sent.
+
 ## 1.2.0 - 13.09.2023
 
 ### Added
