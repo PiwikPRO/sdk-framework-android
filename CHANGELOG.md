@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 1.2.2 - 11.03.2024
+
+### Fixed
+- Fixed the issue with a dispatcher that in some cases sent only the first batch of events.
+
 ## 1.2.1 - 15.02.2024
 
 ### Added
