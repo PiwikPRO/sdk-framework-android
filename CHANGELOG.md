@@ -1,6 +1,14 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.2.0 - 29.07.2025
+
+### Added
+- VersionCode next to versionName. From now on, versionCode will be sent with each event, just as build number is sent in PIWIK PRO iOS SDK.
+
+### Fixed
+- Missing _viewts parameter in some request on Android SDK.
+
 ## 2.1.0 - 21.02.2025
 
 ### Added
