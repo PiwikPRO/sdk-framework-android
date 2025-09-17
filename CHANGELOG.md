@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.2.1 - 17.09.2025
+
+### Added
+- Screen scope custom variables are sent with custom `events`.
+
 ## 2.2.0 - 29.07.2025
 
 ### Added
