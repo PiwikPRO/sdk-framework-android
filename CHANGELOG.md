@@ -1,6 +1,15 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## 2.3.0 - 02.03.2026
+
+### Fixed
+- Updated the way the `_idvc` parameter is calculated for new visitors — the number of visits now starts from 1.
+- Stop clearing an event queue when the `opt-out` flag changes.
+
+### Changed
+- Minimum SDK version increased to 21
+
 ## 2.2.1 - 17.09.2025
 
 ### Added
