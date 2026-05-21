@@ -1,5 +1,36 @@
 # Changelog
-All notable changes to this project will be documented in this file.
+
+All notable changes through version 2.4.0 are documented in this file.
+
+**From version 2.4.0 onward, release notes are published on the [GitHub Releases](https://github.com/PiwikPRO/sdk-framework-android/releases) page.** This file is kept for historical reference only.
+
+## 2.4.0 - 22.05.2026
+
+### Changed
+- The library is now published to Maven Central instead of JitPack.
+
+### Migration
+
+The dependency coordinates do not change. If your project already includes `mavenCentral()` in its repositories block, no changes are required:
+
+```gradle
+implementation 'pro.piwik:sdk-framework-android:2.4.0'
+```
+
+If your project only used JitPack, add Maven Central to your repositories:
+
+```gradle
+repositories {
+    mavenCentral()
+    // The JitPack entry can be removed once no other dependencies need it.
+}
+```
+
+JitPack will keep older versions (≤ 2.3.0) but will not receive new releases.
+
+### Notes
+- No API or behavior changes compared to 2.3.0. This release only migrates the distribution channel.
+- This is the last entry in this CHANGELOG file. Release notes for version 2.4.1 and later are published on the [GitHub Releases](https://github.com/PiwikPRO/sdk-framework-android/releases) page.
 
 ## 2.3.0 - 02.03.2026
 
